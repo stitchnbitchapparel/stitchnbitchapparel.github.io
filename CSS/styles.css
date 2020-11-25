@@ -20,7 +20,7 @@ h1 {
 li:hover{
   cursor:grab;
 }
-    
+
 a {
   color: #4f646f;
   text-decoration:none;
@@ -33,7 +33,7 @@ a:visited {
 
 h1 {
   color:#695252;
-  font-size:20;
+  font-size:50px;
   font-style:oblique;
 }
 
@@ -60,12 +60,12 @@ blockquote{
   clear: both;
 }
 
- .logo-img{
+.logo-img{
    float: right;
-   width:-400px;
-   height: -100px;
-   margin: auto;
-   display: block;
+   width:300px;
+   height:300px;
+   margin: -150px;
+   display: inline-flex;
  }
 
 
@@ -87,14 +87,14 @@ li:hover{
 
  p {
   text-align: center;
-  font-size: 20;
+  font-size: 30;
   font-family: 'Teko', sans-serif;
-   }
+}
 
   header
   nav,
   main {
-    padding: 30px 10px
+    padding: 10px 10px
   }
 
   /* FOOTER STYLES
@@ -103,7 +103,7 @@ li:hover{
 footer{
   background: #eeb6bc;
   text-align: center;
-  padding:1px;
+  padding:3px;
 }
 /* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
 .page-wrap {
