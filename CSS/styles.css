@@ -1,0 +1,151 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Teko', sans-serif;
+}
+
+.home {
+    background-image: url("../images/background.jpg");
+}
+
+h1 {
+  color:#4f646f;
+  font-size:60px;
+  font-style:oblique;
+  text-align:center;
+  font-family: 'Teko', sans-serif;
+}
+li:hover{
+  cursor:grab;
+}
+    
+a {
+  color: #4f646f;
+  text-decoration:none;
+}
+
+a:visited {
+  color: #695252;
+  outline: none;
+}
+
+h1 {
+  color:#695252;
+  font-size:20;
+  font-style:oblique;
+}
+
+h2, h4 {
+  font-style: oblique;
+  color: #9a9294;
+  text-align: center;
+  margin: 10;
+  font-family: 'Teko', sans-serif;
+}
+
+nav {
+  font-style: italic;
+  text-align: center;
+}
+
+img{
+  float: left;
+  height: 500px;
+  width: 500px;
+}
+
+blockquote{
+  clear: both;
+}
+
+ .logo-img{
+   float: right;
+   width:-400px;
+   height: -100px;
+   margin: auto;
+   display: block;
+ }
+
+
+h1 {
+  color:#695252;
+  text-align: center;
+  font-size: 13;
+  font-style: italic;
+  font-family: 'Teko', sans-serif;
+}
+
+li:hover{
+  cursor:grab;
+}
+
+
+
+      /* This is a comment */
+
+ p {
+  text-align: center;
+  font-size: 20;
+  font-family: 'Teko', sans-serif;
+   }
+
+  header
+  nav,
+  main {
+    padding: 30px 10px
+  }
+
+  /* FOOTER STYLES
+-----------------------------------------*/
+
+footer{
+  background: #eeb6bc;
+  text-align: center;
+  padding:1px;
+}
+/* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
+.page-wrap {
+ min-height: 100%;
+ margin-bottom: -55px; /* must be the same height as footer */
+}
+.page-wrap:after {
+ content: "";
+ display: block;
+}
+footer,
+.page-wrap:after {
+ height: 50px; /* however tall you want the footer to be */
+}
+/* CONTACT STYLES
+-----------------------------------------*/
+form {
+  width: 400px;
+}
+
+input,
+textarea {
+  border: 1px solid #eeb6bc;
+  width: 400px;
+  margin-bottom: 20px;
+}
+input {
+  height: 20px;
+}
+textarea {
+  height: 100px;
+}
+button {
+  background: #eeb6bc;
+  border: none;
+  padding: 10px 40px;
+  font-size: 16px;
+}
+
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
