@@ -83,15 +83,15 @@ li:hover{
 
   /* This is a comment */
 
- p {
+p {
   text-align: center;
   font-size: 30;
   font-family: 'Teko', sans-serif;
 }
 
-  header
-  nav,
-  main {
+header
+nav,
+main {
     padding: 10px 10px
   }
 
@@ -105,7 +105,6 @@ li:hover{
   padding-bottom: 50px;
   column-gap:20px;
 }
-
 
 .column1 {
   padding-top: 50px;
@@ -126,11 +125,11 @@ li:hover{
 }
 
 .columnwide {
-  padding-top: 90px;
+  padding-top: 50px;
   text-align: center;
   float: left;
   width: 50%;
-  padding-bottom: 90px;
+  padding-bottom: 50px;
 }
 
 .row {
@@ -140,15 +139,14 @@ li:hover{
   justify-content: space-between;
 }
 
-/* Clear floats after the columns */
 .row:after {
   display: table;
   clear: both;
   text-align:center;
   content:"";
   clear:both;
-
 }
+
 /* CONTACT STYLES
 -----------------------------------------*/
 form {
@@ -161,9 +159,11 @@ textarea {
   width: 400px;
   margin-bottom: 20px;
 }
+
 input {
   height: 20px;
 }
+
 textarea {
   height: 100px;
 }
@@ -178,6 +178,7 @@ button {
 body {
     text-align: center;
 }
+
 form {
     display: inline-block;
 }
@@ -190,16 +191,19 @@ background: #eeb6bc;
 text-align: center;
 padding:3px;
 }
+
 /* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
 .page-wrap {
 min-height: 100%;
 margin-bottom: -55px; /* must be the same height as footer */
 }
+
 .page-wrap:after {
 content: "";
 display: block;
 }
+
 footer,
 .page-wrap:after {
-height: 50px; /* however tall you want the footer to be */
+height: 55px; /* however tall you want the footer to be */
 }
